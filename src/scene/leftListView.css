@@ -1,0 +1,22 @@
+.leftListView .cell{    
+     -fx-text-fill: white;
+     -fx-font-size: 14pt;
+     -fx-background-color: #0F1B38;
+    
+  }
+  .leftListView{    
+  
+    -fx-background-color: #0F1B38;
+    -fx-border-color:  #0F1B38; 
+ }
+
+/*При наведении*/
+.leftListView .cell:filled:hover {
+  -fx-background-color: #0066ff;
+  -fx-text-fill: white;
+}
+/*При нажатии*/
+.leftListView .cell:filled:selected:focused, .list-cell:filled:selected {
+  -fx-background-color:  #0026ff;
+  -fx-text-fill: white;
+}
